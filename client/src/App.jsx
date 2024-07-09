@@ -7,7 +7,7 @@ function App() {
   const [password, setPassword] = useState("");
 
   //useRef hook
-  const passwordRef = useRef(null); // This is a syntax
+  const passwordRef = useRef(null); // This is a SPECIAL syntax
 
   const passwordGenerator = useCallback(() => {
     let pass = "";
